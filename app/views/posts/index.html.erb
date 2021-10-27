@@ -1,1 +1,7 @@
-<h1>Siema!</h1>
+<% @posts.each do |post| %>
+  <div class="post-wrapper">
+    <h1> <%= post.title %> </h1>
+    <p> <%= post.description%> </p>
+    <div> <%= image_tag post.image  %> </div>
+  </div>
+<% end %>

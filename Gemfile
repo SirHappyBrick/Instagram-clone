@@ -15,7 +15,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 #added manualy
 
 gem 'devise', '~> 4.8'
-gem 'simple_form', '~> 5.1'
+gem 'simple_form'
+gem 'image_processing', '~> 1.12', '>= 1.12.1'
 
 group :development, :test do  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
